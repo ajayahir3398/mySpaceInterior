@@ -1,0 +1,45 @@
+html {
+  background-color: #f0f0f0;
+}
+
+.main-content {
+  margin: 2rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+:host ::ng-deep .p-menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+:host ::ng-deep .p-menubar-root-list {
+  margin-left: auto;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', 'sans-serif';
+  font-size: 16px;
+  font-weight: 400;
+  color: #222;
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    margin: 1rem;
+  }
+  .navbar-logo {
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
+  }
+}
